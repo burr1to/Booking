@@ -1,7 +1,7 @@
 .navbar {
   height: 70px;
   display: flex;
-  background-color: rgb(26, 112, 83);
+  background-color: var(--primary);
   justify-content: center;
 }
 
@@ -17,9 +17,53 @@
 .logo {
   font-weight: bolder;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .navButton {
   margin-left: 12px;
   border: none;
+}
+
+.bottom {
+  background-color: var(--primary);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.mail {
+  width: 100%;
+  display: flex;
+  padding: 30px 0px 60px 0px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 10px;
+}
+
+.inputCon > input {
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+}
+
+.footer {
+  background-color: var(--light);
+  padding: 10px;
+  color: white;
+}
+
+.fList {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.fListItem {
+  margin-right: 30px;
+  cursor: pointer;
+  font-size: 20px;
 }
